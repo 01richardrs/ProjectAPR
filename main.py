@@ -24,6 +24,9 @@ async def on_message(message):
     await message.channel.send('Sup Bitj :3')
   if message.content.startswith('$aqua'):
     await message.channel.send('https://imgur.com/Kj7QIfl')
+  if message.content.startswith('$bij'):
+    await message.channel.send('Test bij')
+
 
   # roll a dice
   if message.content.startswith('$roll'):
