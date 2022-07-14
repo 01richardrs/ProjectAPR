@@ -25,7 +25,6 @@ async def on_message(message):
   if message.content.startswith('$aqua'):
     await message.channel.send('https://imgur.com/Kj7QIfl')
 
-
   # roll a dice
   if message.content.startswith('$roll'):
     chosenNum = random.choice(diceNums)
