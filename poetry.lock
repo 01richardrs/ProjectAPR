@@ -201,6 +201,14 @@ optional = false
 python-versions = ">=3.8"
 
 [[package]]
+name = "pytz"
+version = "2022.1"
+description = "World timezone definitions, modern and historical"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "replit"
 version = "3.2.4"
 description = "A library for interacting with features of repl.it"
@@ -292,7 +300,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8.0,<3.9"
-content-hash = "20c737b70e1b90127d8b8bc8959c542d8e734a7387ff6431dd2e2141b464fb85"
+content-hash = "45d9fc90f82d78f182a42092496a3c61d1edd52207070eae4ad95e885136cdf0"
 
 [metadata.files]
 aiohttp = []
@@ -313,6 +321,7 @@ jinja2 = []
 markupsafe = []
 multidict = []
 numpy = []
+pytz = []
 replit = []
 requests = []
 typing-extensions = []
